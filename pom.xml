@@ -7,7 +7,7 @@
     <groupId>com.kasinf</groupId>
     <artifactId>oss-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.0.RELEASE</version>
+    <version>0.1.0</version>
     <name>oss-parent</name>
     <url>https://github.com/lkhtest/oss-parent</url>
     <description>
@@ -60,6 +60,7 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
             <!-- Source -->
